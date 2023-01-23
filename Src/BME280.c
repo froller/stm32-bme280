@@ -16,6 +16,7 @@
  * @param reg: Register statrting address
  * @param buffer: Pointer to buffer
  * @param size: Number of bytes to read sequentially
+ * @retval HAL_StatusTypeDef
  * @return HAL status
  */
 HAL_StatusTypeDef __BME280_ReadRegister(BME280_HandleTypeDef *hbmp, uint8_t reg, uint8_t *buffer, const size_t size) {
